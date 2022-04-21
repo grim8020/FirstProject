@@ -36,7 +36,7 @@ struct ContentView: View {
                 Image(systemName: "cloud.fill")
                 //need to add the resizable() and the frame to change the image size
                     .resizable()
-                    .foregroundColor(Color.orange)
+                    .foregroundColor(Color.gray)
                     .frame(width: 40.0, height: 30.0)
                 Text("Tuesday")
                     .font(.body)
@@ -50,7 +50,7 @@ struct ContentView: View {
                 Image(systemName: "cloud.bolt.fill")
                 //need to add the resizable() and the frame to change the image size
                     .resizable()
-                    .foregroundColor(Color.gray)
+                    .foregroundColor(Color.yellow)
                     .frame(width: 40.0, height: 40.0)
                 Text("Wednesday")
                     .font(.body)
@@ -64,7 +64,7 @@ struct ContentView: View {
                 Image(systemName: "cloud.fill")
                 //need to add the resizable() and the frame to change the image size
                     .resizable()
-                    .foregroundColor(Color.orange)
+                    .foregroundColor(Color.gray)
                     .frame(width: 40.0, height: 30.0)
                 Text("Thursday")
                     .font(.body)
@@ -78,7 +78,7 @@ struct ContentView: View {
                 Image(systemName: "cloud.drizzle.fill")
                 //need to add the resizable() and the frame to change the image size
                     .resizable()
-                    .foregroundColor(Color.orange)
+                    .foregroundColor(Color.blue)
                     .frame(width: 40.0, height: 40.0)
                 Text("Friday")
                     .font(.body)
