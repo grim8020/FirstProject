@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //var data: WeatherData
+    
     var body: some View {
         
         //NavigationView is the view that controlls other views
@@ -21,8 +24,8 @@ struct ContentView: View {
                 
                 
                 HStack {
-                
                     Image(systemName: object.icon)
+                        .foregroundColor(object.color)
                     Text("\(object.high)º")
                         .foregroundColor(.red)
                     Text("\(object.low)º")

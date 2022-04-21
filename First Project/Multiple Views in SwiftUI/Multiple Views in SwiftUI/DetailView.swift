@@ -20,6 +20,7 @@ struct DetailView: View {
                 .padding(0.5)
             Image(systemName: data.icon)
                 .padding(0.5)
+                .foregroundColor(data.color)
             Button("Show Popover") {
                 isPopoverShowing = true
             }
@@ -29,6 +30,8 @@ struct DetailView: View {
                 Image(systemName: data.icon)
                     .resizable()
                     .frame(width: 100, height: 100, alignment: .center)
+                    .foregroundColor(data.color)
+                
             }
         }
     }
