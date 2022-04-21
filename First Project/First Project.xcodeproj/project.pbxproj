@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		23CE2D562810AB5300AE570D /* SwiftUI Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Basics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CE2D562810AB5300AE570D /* First Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CE2D592810AB5300AE570D /* First_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_ProjectApp.swift; sourceTree = "<group>"; };
 		23CE2D5B2810AB5300AE570D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23CE2D5D2810AB5600AE570D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		23CE2D572810AB5300AE570D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23CE2D562810AB5300AE570D /* SwiftUI Basics.app */,
+				23CE2D562810AB5300AE570D /* First Project.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		23CE2D552810AB5300AE570D /* SwiftUI Basics */ = {
+		23CE2D552810AB5300AE570D /* First Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23CE2D642810AB5600AE570D /* Build configuration list for PBXNativeTarget "SwiftUI Basics" */;
+			buildConfigurationList = 23CE2D642810AB5600AE570D /* Build configuration list for PBXNativeTarget "First Project" */;
 			buildPhases = (
 				23CE2D522810AB5300AE570D /* Sources */,
 				23CE2D532810AB5300AE570D /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUI Basics";
+			name = "First Project";
 			productName = "First Project";
-			productReference = 23CE2D562810AB5300AE570D /* SwiftUI Basics.app */;
+			productReference = 23CE2D562810AB5300AE570D /* First Project.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 23CE2D512810AB5300AE570D /* Build configuration list for PBXProject "SwiftUI Basics" */;
+			buildConfigurationList = 23CE2D512810AB5300AE570D /* Build configuration list for PBXProject "First Project" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23CE2D552810AB5300AE570D /* SwiftUI Basics */,
+				23CE2D552810AB5300AE570D /* First Project */,
 			);
 		};
 /* End PBXProject section */
@@ -281,7 +281,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.grimlab.First-Project";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "First Project";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +310,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.grimlab.First-Project";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "First Project";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23CE2D512810AB5300AE570D /* Build configuration list for PBXProject "SwiftUI Basics" */ = {
+		23CE2D512810AB5300AE570D /* Build configuration list for PBXProject "First Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23CE2D622810AB5600AE570D /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23CE2D642810AB5600AE570D /* Build configuration list for PBXNativeTarget "SwiftUI Basics" */ = {
+		23CE2D642810AB5600AE570D /* Build configuration list for PBXNativeTarget "First Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23CE2D652810AB5600AE570D /* Debug */,
