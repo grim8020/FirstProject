@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        label.text = "Hello Everyone!"
+        label.text = ""
     }
     
     //text field is ready to receive input as soon as the app loads - keyboard will show up immediately
