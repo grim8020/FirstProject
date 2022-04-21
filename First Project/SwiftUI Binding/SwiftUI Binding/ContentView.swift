@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    //@State is used for changing user input
+    @State var name = ""
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        VStack {
+            TextField("Name", text: $name)
+                .padding(.all)
+                .frame(width: 300.0) //binding variable from @State - this bound variable will update as the text field is updated.
+            Text("Hello, \(name)!")
+                .padding()
+        }
     }
 }
 
