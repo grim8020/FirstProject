@@ -12,6 +12,7 @@
 		2375481A2811896200F19D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237548192811896200F19D4B /* Assets.xcassets */; };
 		2375481D2811896200F19D4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2375481C2811896200F19D4B /* Preview Assets.xcassets */; };
 		23754824281190C400F19D4B /* ColorSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23754823281190C300F19D4B /* ColorSwatch.swift */; };
+		2375482628119EC400F19D4B /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375482528119EC400F19D4B /* ColorSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		237548192811896200F19D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2375481C2811896200F19D4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23754823281190C300F19D4B /* ColorSwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwatch.swift; sourceTree = "<group>"; };
+		2375482528119EC400F19D4B /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				237548152811895C00F19D4B /* Color_PickerApp.swift */,
 				237548172811895C00F19D4B /* ContentView.swift */,
+				2375482528119EC400F19D4B /* ColorSlider.swift */,
 				23754823281190C300F19D4B /* ColorSwatch.swift */,
 				237548192811896200F19D4B /* Assets.xcassets */,
 				2375481B2811896200F19D4B /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				237548182811895C00F19D4B /* ContentView.swift in Sources */,
 				237548162811895C00F19D4B /* Color_PickerApp.swift in Sources */,
+				2375482628119EC400F19D4B /* ColorSlider.swift in Sources */,
 				23754824281190C400F19D4B /* ColorSwatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

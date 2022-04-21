@@ -20,6 +20,6 @@ struct ColorSwatch: View {
 
 struct ColorSwatch_Previews: PreviewProvider {
     static var previews: some View {
-        ColorSwatch()
+        ColorSwatch(color: .red)
     }
 }

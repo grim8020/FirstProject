@@ -12,6 +12,8 @@ import SwiftUI
 struct ContentView: View {
     
     @State var red = 1.0
+    @State var green = 1.0
+    @State var blue = 1.0
     
     var body: some View {
         VStack {
@@ -20,20 +22,15 @@ struct ContentView: View {
                 .fontWeight(.light)
                 .padding()
             Image(systemName: "gamecontroller.fill")
-                .foregroundColor(Color(red: red, green: 0.0, blue: 0, opacity: 1.0))
-            
-            HStack {
-                ColorSwatch()
-                //created a new file and added it to this to cut down on the amount of code in this single file
-                Slider(value: $red, in: 0...1, step: 0.1)
-                    .padding(.horizontal, 25.0)
-            }
+                .resizable()
+                .frame(width: 100, height: 75)
+                .foregroundColor(Color(red: red, green: green, blue: blue, opacity: 1.0))
+            ColorSlider(value: $red, color: .red)
+            ColorSlider(value: $blue, color: .blue)
+            ColorSlider(value: $green, color: .green)
         }
     }
 }
-
-
-
 
 
 struct ContentView_Previews: PreviewProvider {
