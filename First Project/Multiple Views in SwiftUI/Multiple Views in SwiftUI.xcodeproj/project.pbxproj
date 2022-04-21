@@ -12,6 +12,7 @@
 		237548382811AA7100F19D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 237548372811AA7100F19D4B /* Assets.xcassets */; };
 		2375483B2811AA7100F19D4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2375483A2811AA7100F19D4B /* Preview Assets.xcassets */; };
 		237548422811AAF400F19D4B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237548412811AAF400F19D4B /* DataModel.swift */; };
+		237548442811BD5300F19D4B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237548432811BD5300F19D4B /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		237548372811AA7100F19D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2375483A2811AA7100F19D4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		237548412811AAF400F19D4B /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		237548432811BD5300F19D4B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				237548332811AA6E00F19D4B /* Multiple_Views_in_SwiftUIApp.swift */,
 				237548352811AA6E00F19D4B /* ContentView.swift */,
+				237548432811BD5300F19D4B /* DetailView.swift */,
 				237548412811AAF400F19D4B /* DataModel.swift */,
 				237548372811AA7100F19D4B /* Assets.xcassets */,
 				237548392811AA7100F19D4B /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				237548362811AA6E00F19D4B /* ContentView.swift in Sources */,
+				237548442811BD5300F19D4B /* DetailView.swift in Sources */,
 				237548342811AA6E00F19D4B /* Multiple_Views_in_SwiftUIApp.swift in Sources */,
 				237548422811AAF400F19D4B /* DataModel.swift in Sources */,
 			);
