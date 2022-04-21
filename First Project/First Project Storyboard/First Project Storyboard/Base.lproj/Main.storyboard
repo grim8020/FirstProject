@@ -17,9 +17,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J3u-YS-3ql">
-                                <rect key="frame" x="170" y="408" width="74" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPy-eR-Itt">
+                                <rect key="frame" x="109" y="124" width="196" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qQI-Xq-LSo">
+                                <rect key="frame" x="40" y="244" width="334" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J3u-YS-3ql">
+                                <rect key="frame" x="170" y="326" width="74" height="34"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button">
                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="16"/>
@@ -28,23 +39,22 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aBY-6j-v1P"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qQI-Xq-LSo">
-                                <rect key="frame" x="81" y="254" width="252" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPy-eR-Itt">
-                                <rect key="frame" x="109" y="127" width="197" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="J3u-YS-3ql" secondAttribute="trailing" constant="170" id="229-i0-eAd"/>
+                            <constraint firstItem="J3u-YS-3ql" firstAttribute="top" secondItem="qQI-Xq-LSo" secondAttribute="bottom" constant="48" id="6UF-KL-AKF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qQI-Xq-LSo" secondAttribute="trailing" constant="40" id="93A-XS-IMV"/>
+                            <constraint firstItem="VPy-eR-Itt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="109" id="Sod-dC-wvB"/>
+                            <constraint firstItem="qQI-Xq-LSo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="bed-se-vnl"/>
+                            <constraint firstItem="J3u-YS-3ql" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="cOr-Kz-e97"/>
+                            <constraint firstItem="qQI-Xq-LSo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gD1-hO-HyY"/>
+                            <constraint firstItem="VPy-eR-Itt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="nHQ-9d-mFQ"/>
+                            <constraint firstItem="qQI-Xq-LSo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="oqk-h1-65H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VPy-eR-Itt" secondAttribute="trailing" constant="109" id="qGC-eX-hha"/>
+                            <constraint firstItem="qQI-Xq-LSo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="zHL-fk-83H"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="label" destination="VPy-eR-Itt" id="F8Z-g4-oTb"/>
